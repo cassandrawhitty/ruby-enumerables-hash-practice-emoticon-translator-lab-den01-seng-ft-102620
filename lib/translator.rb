@@ -16,7 +16,6 @@ def get_japanese_emoticon(file_name, emoticon)
   names_and_emojis.each do |name, languages_and_emojis| 
     if languages_and_emojis[:english] == emoticon
       return languages_and_emojis[:japanese]
-      binding.pry
     end
   end
   return "Sorry, that emoticon was not found"
