@@ -13,7 +13,7 @@ end
 
 def get_japanese_emoticon(file_name, emoticon)
   names_and_emojis = load_library(file_name)
-  names_and_emojis.each do |key, value| 
+  names_and_emojis.values.each do |key, value| 
     binding.pry
   end
   # if names_and_emojis.values.include? (emoticon) 
