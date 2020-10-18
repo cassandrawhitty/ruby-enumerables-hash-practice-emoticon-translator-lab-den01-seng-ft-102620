@@ -28,7 +28,6 @@ def get_english_meaning(file_name, emoticon)
   # binding.pry
   names_and_emojis.each do |names, languages_and_emojis|
     if languages_and_emojis[:japanese] == emoticon
-      # binding.pry
       return names
     end
   end
