@@ -19,12 +19,7 @@ def get_japanese_emoticon(file_name, emoticon)
     end
     binding.pry
   end
-  
-  # if names_and_emojis.values.include? (emoticon) 
-    # return response.values[0][:japanese]
-  # else
-    # return "Sorry, that emoticon was not found"
-  # end
+  return "Sorry, that emoticon was not found"
 end
 def get_english_meaning(file_name, emoticon)
   names_and_emojis = load_library(file_name)
